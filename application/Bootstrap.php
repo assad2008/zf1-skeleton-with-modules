@@ -84,7 +84,7 @@ class Bootstrap extends App_Bootstrap_Abstract {
 		Zend_Session::start();
 		$session = new Zend_Session_Namespace();
 		$session->lang = isset($session->lang) ? $session->lang : "zh_CN";
-		Zend_Registry::set('session', new Zend_Session_Namespace);
+		Zend_Registry::set('session', $session);
 	}
 
 	public function runApp() {
