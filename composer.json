@@ -1,0 +1,12 @@
+{
+    "require": {
+        "tracy/tracy": "^2.4",
+        "smarty/smarty": "^3.1",
+        "zendframework/zendframework1": "^1.12",
+        "leeoniya/dump-r": "^2.1"
+    },
+    "autoload":{
+    	"classmap":[]
+    },
+    "include-path":["library"]
+}
