@@ -7,14 +7,17 @@
  * @date 2016-07-13 13:27:52
  */
 
-class Default_SiteController extends App_Controller {
+class Default_SiteController extends App_Controller
+{
 
-	public $flag;
-	public function init() {
-		parent::init();
-	}
+    public $flag;
+    public function init()
+    {
+        parent::init();
+    }
 
-	public function helloAction() {
-		$this->smarty->assign('hello', 'Hello World');
-	}
+    public function helloAction()
+    {
+        $this->view->assign('hello', 'Site Hello World');
+    }
 }

@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Zend_' => array($vendorDir . '/zendframework/zendframework1/library'),
+    'Twig_' => array($vendorDir . '/twig/twig/lib'),
 );

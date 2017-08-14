@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInite9f2951864aa343695abc822cb1042ea
 {
     public static $files = array (
-        'f084d01b0a599f67676cffef638aa95b' => __DIR__ . '/..' . '/smarty/smarty/libs/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2208db94ce05fb2f82040fa4f2ccdbe6' => __DIR__ . '/..' . '/leeoniya/dump-r/dump_r.php',
         '7745382c92b7799bf1294b1f43023ba2' => __DIR__ . '/..' . '/tracy/tracy/src/shortcuts.php',
     );
@@ -17,12 +17,28 @@ class ComposerStaticInite9f2951864aa343695abc822cb1042ea
         array (
             'dump_r\\' => 7,
         ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'dump_r\\' => 
         array (
             0 => __DIR__ . '/..' . '/leeoniya/dump-r/src/dump_r',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
     );
 
@@ -32,6 +48,13 @@ class ComposerStaticInite9f2951864aa343695abc822cb1042ea
             'Zend_' => 
             array (
                 0 => __DIR__ . '/..' . '/zendframework/zendframework1/library',
+            ),
+        ),
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
             ),
         ),
     );
